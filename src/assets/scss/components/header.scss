@@ -1,4 +1,5 @@
 .header {
+  background: transparent;
   padding: 26px 0 22px;
   &__logo {
     position: relative;
@@ -53,6 +54,7 @@
     background: #d9d9d9;
     transform: translateY(8px);
     transition: var(--transition);
+    cursor: pointer;
 
     &::before {
       content: '';
@@ -78,6 +80,10 @@
       font-style: normal;
       font-weight: 600;
       line-height: 24px;
+
+      @include small-tablet{
+        font-size: 20px;
+      }
     }
     &-checkbox {
       appearance: none;
@@ -115,6 +121,7 @@
 
     @include small-tablet{
         line-height: 200%;
+        font-size: 20px;
     }
 
     &::after {
