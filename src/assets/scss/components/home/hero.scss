@@ -66,6 +66,7 @@
     @include flex-justify-between;
     position: relative;
     align-items: flex-end;
+    padding-bottom: 141px;
 
     @include mini-desktop {
       flex-direction: column;

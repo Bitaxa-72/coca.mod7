@@ -8,11 +8,18 @@
   --neutral-color-110: #101010;
   --neutral-color-120: #101010;
   --neutral-color-130: #E2F8F0B2;
+  --overview-color1: #1D1E25;
 
   // container
   --container-padding:15px;
   --container-width:1200px;
 
+  @include mini-desktop{
+    --container-width:1000px;
+  }
+  @include tablet{
+    --container-width:860px;
+  }
   @include mobile{
     --container-width:480px;
   }
@@ -35,4 +42,5 @@
     --neutral-color-110: #fff;
     --neutral-color-120: #343542;
     --neutral-color-130: #E2F8F033;
+    --overview-color1: #18181D;
 }
