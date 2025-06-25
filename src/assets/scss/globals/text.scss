@@ -101,6 +101,14 @@
     }
     &-large {
       font-size: 24px;
+
+      @include mobile{
+        font-size: 22px;
+      }
+
+      @include small-mobile{
+        font-size: 18px;
+      }
     }
 
     &-medium {
