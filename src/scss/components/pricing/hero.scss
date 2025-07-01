@@ -265,7 +265,7 @@
         margin-right: 8px;
         width: 24px;
         height: 24px;
-        background: url('../icons/pricing/checked-icon.svg');
+        background: url('./assets/icons/pricing/checked-icon.svg');
       }
 
       &--inaccess {
@@ -273,7 +273,7 @@
         text-decoration-line: line-through;
 
         &::before {
-          background: url('../icons/pricing/gray-checked-icon.svg');
+          background: url('./assets/icons/pricing/gray-checked-icon.svg');
         }
       }
 
